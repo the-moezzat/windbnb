@@ -5,7 +5,6 @@ import {
   SheetContent,
   SheetDescription,
   SheetHeader,
-  SheetTitle,
   SheetTrigger,
   SheetClose,
   SheetFooter,
@@ -72,7 +71,7 @@ export default function Filter() {
                   </button>
                 ))}
               </div>
-              <div className="flex flex-col gap-6 hidden">
+              <div className="flex-col gap-6 hidden">
                 <div>
                   <p className="text-sm text-[#BDBDBD] mb-3">
                     <p className="font-bold  text-[#333333]">Adult</p>
